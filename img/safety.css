@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+.text {
+background-image: linear-gradient(rgba(88, 87, 85, 0.83), rgba(85, 83, 83, 0.719)), url('img/Rectangle 5 (3).png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+/* background-image: url('Rectangle 5.png'); */
+background-size: cover;
+background-size: 100% 100%;
+padding-bottom: 5rem;
+padding-top: 5rem;
+/* padding-left:5rem */
+
+}
+
+
+.text h1{
+font-family: 'Poppins';
+font-size: 3.5rem;
+font-weight: 700;
+color:white;
+}
+
+.home2 h1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.home2 p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #737373;
+
+}
+@media (min-width: 768px) and (max-width:980px){
+    .col-md-6 {
+    object-fit: cover;
+    flex: 0 0 auto;
+    width: 50%;
+    width: max-content !important;
+    
+    }
+    .row-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    }
+    @media screen and (max-width:550px)
+    {
+    .home2 img{
+    width:inherit;
+    }
+    
+    }
+    

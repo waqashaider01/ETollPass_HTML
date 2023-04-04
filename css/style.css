@@ -1,0 +1,1779 @@
+
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+
+
+
+     /*#####################> Header Css Start <############## */
+     .menubar{
+        background-color:#083EA1 !important;
+    }
+    .bton{
+        background-color: #F94144!important;
+        border-radius: 5px !important;
+       
+        
+    }
+    .bton i{
+        color: white;
+    }
+    .inputtxt{
+        border-radius: 0px !important;
+        border: 2px solid #C4C4C4 !important;
+        border-right: none !important;
+         border-bottom-left-radius: 5px !important;
+         border-top-left-radius: 5px !important;
+
+    }
+    .inputtxt::placeholder{
+    font-size: 18px;
+        color: #737373;;
+    }
+    .inputtxt:focus{
+        border-radius: 0px;
+        box-shadow: none !important;
+    }
+    .dropmenu{
+        background-color:#ffffff !important;
+        width: 100% !important;
+        border: none !important;
+        border-top: 2px solid white !important;
+        border-radius: 0px !important;
+    
+    }
+    .nvitm a:hover{
+         color:#F94144 !important;
+    }
+    .ditem{
+        color: black !important;
+    }
+    .ditem:hover{
+        
+        color: #00AEEF !important;
+       
+    }
+    /* .wid{
+        width: 120px !important;
+    } */
+    .nvbrbtn:focus{
+        box-shadow: none !important;
+    }
+    .navbar-toggler {
+      
+        background-color: white !important;
+        
+    }
+     
+    
+    @media (max-width:991px) {
+        .menubar{
+          
+            position: relative;
+        }
+        .line{
+            border-top: 2px solid white !important;
+           width: 100% !important;
+            color: green !important;
+            height: 5px;
+        }
+    }
+
+    /* Header First Css Start  */
+    .rotate {
+        transform: rotate(180deg);
+      }
+      .bgTabs{
+        background-color: #083EA1;
+        position: relative;
+        padding-top: 50px;
+      padding-right: 0px !important;
+      }
+      .navTabs2{
+        border: none !important;
+      }
+      .mainheadertabsfix{
+        display: none; position: absolute; z-index: 15000; margin-top: 82px !important; background-color:white;
+      }
+
+      @media(max-width:768px)
+      {
+        .mainheadertabsfix{
+         position: absolute; z-index: 15000; margin-top:200px !important; background-color:white;
+      }
+      }
+      .tabtbntogglenav button{
+        border-radius: 0px !important;
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+      }
+      .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        color: #083EA1;
+    background-color: var(--bs-nav-tabs-link-active-bg);
+    border-color: var(--bs-nav-tabs-link-active-border-color);
+}
+
+.btntderiver{
+position: relative;
+width: 220px;
+}
+.font_awsom_icon{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.setcountryflag{
+  margin-left: 200px;
+}
+@media(max-width:530px)
+{
+  .setcountryflag{
+  margin-left: 0px;
+}
+}
+
+
+
+
+
+.modelcolorheader{
+ 
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.modelcolorheader1{
+ 
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+
+
+element.style {
+}
+.nav-tabs {
+ --bs-nav-tabs-border-width: none !important;
+ --bs-nav-tabs-border-color: none !important;
+ --bs-nav-tabs-border-radius: var(--bs-border-radius);
+ /* --bs-nav-tabs-link-hover-border-color: var(--bs-secondary-bg) var(--bs-secondary-bg) var(--bs-border-color); */
+ --bs-nav-tabs-link-active-color: var(--bs-emphasis-color);
+ --bs-nav-tabs-link-active-bg: var(--bs-body-bg);
+ --bs-nav-tabs-link-active-border-color: var(--bs-border-color) var(--bs-border-color) var(--bs-body-bg);
+ border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color) ;
+}
+.logbtnhead{
+  border: 1px solid white ;
+  color: white ;
+  background-color: transparent;
+  font-weight: 500;
+}
+.logbtnhead:hover{
+  background-color:#BB2D3B ;
+  color: white;
+}
+#suprtBtn{
+    cursor: pointer;
+}
+#suprtBtn:hover{
+    border-bottom: 3px solid  #083994;
+    cursor: pointer;
+}
+#langBtn{
+    cursor: pointer;
+}
+#langBtn:hover{
+    border-bottom: 3px solid  #083994;
+}
+    /* Header Firsty Css End  */
+     /*#####################> Header Css end<############## */
+
+
+
+p{
+    margin-bottom: 0rem !important;
+}
+     
+ .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100vw;
+        height:100vh;
+ }
+
+ /* html, body {
+  height: 100%;
+  background-image: linear-gradient(-105deg, #f5f7f8, #f7f7fa);
+} */
+
+.spinner {
+  animation: rotate 2s linear infinite;
+  z-index: 2;
+ 
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  width: 50px;
+  height: 50px;
+} 
+  .path {
+    stroke: hsl(210, 90%, 35%);
+    stroke-linecap: round;
+    animation: dash 1.5s ease-in-out infinite;
+  }
+  
+
+
+  .cardlinkPcolor{
+    color: black;
+  }
+  .cardlinkPcolor:hover{
+    color: #083EA1;
+  }
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124;
+  }
+}
+
+
+
+      .content{
+        display: none;
+      }
+
+
+    .carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+.absolute-div {
+    position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+}
+
+.carousel-caption h3 {
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.item {
+    position:relative;
+}
+    .text {
+        background-image: linear-gradient(rgba(49, 48, 47, 0.83), rgba(26, 25, 25, 0.719)), url('../img/Rectangle 5.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-image: url('Rectangle 5.png'); */
+    background-size: cover;
+    background-size: 100% 100%;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+    /* padding-left:5rem */
+
+}
+
+
+.text h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color:white;
+}
+.text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color:white;
+}
+.notif{
+   
+}
+.notif h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #F94144;
+
+
+}
+.notif{
+    /* width: 1440px;
+height: 123px;
+left: 1px;
+top: 744px; */
+padding-top: 2rem;
+padding-bottom: 2rem;
+
+background: #FFE8E8;
+}
+
+.notif h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #F94144;
+}
+.traficcard{
+    
+    padding-right:1rem ;
+    border-radius: 10px;
+
+}
+.humnacard{
+    margin-top: 4rem;
+}
+.textcol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textcol p{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.freeproducts{
+    margin-top:4rem ;
+}
+.freeproducts h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1.8rem;
+line-height: 40px;
+margin-bottom: 2rem;
+
+color: #000000;
+}
+.ct{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 30px;
+ 
+
+
+color: #1E1E1E;
+
+}
+.text2 {
+        background-image: url('../img/Rectangleev.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    background-size: cover;
+    background-size: 100% 100%;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    /* padding-left:5rem */
+
+}
+.text2{
+    font-family: 'Poppins';
+}
+.text2 h3{
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1.7rem;
+line-height: 54px;
+
+color: #FFFFFF;
+
+}
+a{
+    text-decoration: none ;
+    border:none !important;
+    outline: 0 !important;
+}
+.EV{
+    margin-top: 4rem;
+}
+.humnacard2{
+    margin-top: 4rem;
+}
+
+.card2 {
+width: 100% !important;
+border: none !important;
+ 
+    /*    
+
+    border-radius: 10px !important; */
+
+}
+.card_body_banner{
+    padding-left: 0px ;
+}.card-img-top1{
+    width: 100%;
+    border-radius: 15px;
+}
+.card-img-top{
+    width: 100%;
+    
+}
+.cardindexbody{
+    padding-left: 0px ;
+}
+.cardindexbody h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #1E1E1E;
+
+
+}
+.indsmallcards{
+    height: 120px;
+}
+ 
+@media screen and (max-width:650px)
+{
+     .gx-5 {
+       
+    --bs-gutter-x: 0rem !important;
+}
+
+}
+@media (min-width:428px) and (max-width:975px)
+{
+    .traficcard img{
+        width:inherit;
+    }
+
+}
+
+@media screen and (max-width:970px)
+{
+    .freeproducts h2{
+        text-align: center;
+
+    }
+
+}
+@media screen and (max-width:620px)
+
+{
+    .text h1{
+        text-align: center;
+    }
+    .text p{
+        text-align: center;
+    }
+  
+    .text2 h3{
+        text-align: center;
+
+    }
+    .text2col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Amir Sohail Css Start  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+
+/*#############> Get In Touch Banner Satrt<############  */
+
+ 
+
+.touchbanner_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.touchbanner_text h1 {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.touchbanner_text span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.touchbanner_text span a {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.touchbanner_text span a:hover {
+    color: #083EA1;
+    font-weight: 800;
+}
+
+/* Media  */
+@media(max-width:350px) {
+    .touchbanner_text h1 {
+        font-size: 35px;
+        line-height: 30px;
+    }
+}
+@media(max-width:990px) {
+    .touchbanner_text h1 {
+        font-size: 35px;
+        line-height: 30px;
+    }
+}
+
+/* Contact Start  */
+ 
+.touchcontact h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+.touchcontact p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #737373;
+}
+.touchicons{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #083EA1;
+  
+}
+.touchicons1{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: white;
+}
+.touchicons2{
+    position: absolute;
+    top: 12px;
+    font-size: 18px;
+    left: 12px;
+    color: white;
+}
+.touch_contact_detail h5{
+    font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+
+color: #1E1E1E;
+
+}
+.touchnumber{
+    color: #1E1E1E !important;
+}
+.asda{
+    width: 40px;
+    height: 40px;
+}
+@media(max-width:1200px)
+{
+    .touch_contact_detail{
+        width: 220px;
+    }
+}
+@media(max-width:600px)
+{
+    .touch_contact_detail{
+        width: 300px;
+    }
+}
+@media(max-width:400px)
+{
+    .touch_contact_detail{
+        width: 220px;
+    }
+}
+
+
+.touchinput label{
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+color: #1E1E1E;
+}
+.touchinput input,textarea{
+    border: 1px solid #D9D9D9;
+border-radius: 5px;
+padding: 10px;
+width: 100%;
+}
+.touchinput input::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;  
+    color: #A09592;
+}
+.touchinput textarea::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;  
+    color: #A09592;
+}
+.touchbutton{
+    width: 84px;
+height: 40px;
+    background-color: #F94144;;
+    border: none;
+    border-radius: 5px ;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+}
+.touchbutton:hover{
+    background-color: #083EA1;
+}
+
+.touchmap iframe{
+    width: 100% !important;
+    height: 50vh;
+}
+/*#############> Get In Touch   End <############  */
+
+
+
+
+/*#############>Help And Faq Start <############  */
+ 
+.fag_img1 img{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+       
+}
+.fag_img1 img{
+    width: 100%;
+
+
+}
+@media(max-width:768px)
+{
+    .fag_img1{
+        margin-top: 20px;
+    }
+}
+
+/* .faq_realted_link{
+    background: #F4F4F7;
+} */
+.faq_related h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+.cardreltedimg{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.card_reltaed{
+    height: 230px;
+    background-color: transparent;
+    border: 1px solid #D9D9D9;
+border-radius: 8px;
+}
+.card_related_titile{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #1E1E1E;
+}
+.realetd_faq_link{
+    color: #083EA1;
+}
+/*#############>Help And Faq End  <############  */
+
+
+/*#############>Help And Faq  Rentel Vehical Start   <############  */
+.faqBanner_rentel{
+    position: relative;
+}
+/*#############>Help And Faq  Rentel Vehical End   <############  */
+
+/*#############>Help And Faq Commercial Feets<############  */
+
+ 
+.touchcontact ol{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #737373;
+}
+.touchcontact ul{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #737373;
+}
+
+/*#############>Help And Faq Commercial Feets end<############  */
+
+
+ 
+
+
+/*#############>Help And Faq ALL D<############  */
+ 
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #F4F4F7;
+
+    outline: 0;
+    box-shadow:none !important;
+}
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #F4F4F7 !important;
+    box-shadow:none;
+}
+.accordion-item:first-of-type .accordion-button {
+    background-color:  #F4F4F7 !important;
+   border: 1px solid #F4F4F7 !important;
+}
+.accordion-body {
+    background-color: #F4F4F7 !important;
+    padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+}
+.accordion-button {
+    background-color: #F4F4F7;
+}
+.help_faqall{
+    width: 70%;
+   
+}
+.faqdetails{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+color: #737373;
+
+}
+@media(max-width:768px)
+{
+    .help_faqall{
+        width: 100%;
+       
+    }
+}
+/*#############>Help And Faq ALL D<############  */
+
+
+.bannerallimage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43))
+  }
+
+
+
+  /* ###############>Account And Passes Start<############  */
+  .account_pass img{
+    width: 100%;
+    height: 60vh ;
+    border-radius: 5px;
+    object-fit: cover;
+    
+  }
+  .account_pass h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 33px;
+line-height: 54px;
+
+color: #000000;
+
+  }
+  .account_pass p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #737373;
+  }
+
+  /* ###############>Account And Passes End <############  */
+
+  /*################> Deriver Liecence  Card Start <############### */
+  .driver_card{
+    border: none !important;
+  }
+  .driver_card img{
+    border-bottom-right-radius: 5px ;
+    border-bottom-left-radius: 5px;
+  }
+  .card_body_deriver{
+    padding-left: 0px;
+  }
+
+
+  /*#################> Safety Pafe Start <############ */
+  .safety_card_img img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  }
+  .safety_card_text h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+color: #000000;
+
+  }
+  .safety_card_text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #737373;
+    
+
+  }
+  .safety_card_text a{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+text-decoration-line: underline;
+
+color: #083EA1;
+
+  }
+  @media(max-width:580px)
+  {
+    .safety_card_text{
+        margin-top: 15px;
+    }
+  }
+
+
+
+
+
+
+
+
+ 
+
+  /*##########> Footer Start <############## */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+:root{
+    --header1_bg_color: #FFFFFF;
+    --header2_bg_color: #083EA1;
+    --banner_bg_color: #FFE8E8;
+    --banner2_bg_color: #000000;
+    --button_bg_color: #F94144;
+    --border1_color: #C4C4C4;
+    --content1_color: #FFFFFF;
+    --content2_color: #083EA1;
+    --content3_color: #F94144;
+    --content4_color: #1E1E1E;
+    --content5_color: #000000;
+    --content6_color: #737373;
+    --content7_color: #00AEEF;
+    --anchor_text_color: #e0dedb;
+    --placeholder_text_color: #737373;
+    --border2_color: #083EA1;
+    --border3_color: #D9D9D9;
+    --carousal1_button_bg: #D9D9D9;
+    --carousal2_button_bg: #00AEEF;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+*:focus{  /* Remove outline */
+    outline: none !important;
+}
+
+/* -----------------------------------------Header---------------------------------------- */
+
+/* .............Header 1 starts................ */
+
+.main_header1{
+    height: 100px;
+    background-color: var(--header1_bg_color) !important;
+}
+
+.main_header1 img{
+    width: 100px;
+}
+
+.search_field{
+    width: 306px;
+    height: 32px;
+    border: 1px solid var(--border1_color);
+    border-radius: 4px;
+}
+
+.header1_button{
+    background-color: var(--button_bg_color);
+    margin-left: 20px;
+    margin-left: -39px;
+    margin-right: 1rem;
+    margin-left: -51px;
+    margin-right: 1rem;
+    width: 43px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid var(--button_bg_color);
+}
+
+.header1_button i{
+    color: var(--content1_color);
+}
+
+.header2_button{
+    padding: 12px 24px;
+    width: 86px;
+    height: 45px;
+    border: 1px solid var(--border2_color);
+    border-radius: 4px;
+    color: var(--content2_color);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.header2_button:hover{
+    background-color: var(--header2_bg_color);
+    color: var(--content1_color);
+    font-weight: 600;
+    font-size: 14px;
+    border-color: #19875400; /*transparent*/
+    transition: 0.3s all ease-out;
+}
+  
+  .header2_button:focus, /* Remove box shadow */
+  .search_field:focus {
+    box-shadow: none;
+  }
+
+
+  /* ..................Header 2 Starts...................... */
+
+.main_header2{
+    background-color: var(--header2_bg_color) !important;
+    /* height: 64px; */
+}
+
+.header_nav_bars li a{
+    color: var(--content1_color) !important;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.header_nav_bars li a:hover{
+    color: var(--content3_color) !important;
+    transition: 0.3s all ease-out;
+}
+
+.header_nav_bars{
+    gap: 42px;
+}
+
+.header3_button{
+    background-color: var(--button_bg_color);
+    color: var(--content1_color);
+    font-weight: 600;
+    font-size: 13px;
+    padding: 12px 16px;
+    width: 121px;
+    height: 45px;
+    border-radius: 4px;
+}
+
+.header3_button:hover{
+    background-color: var(--header1_bg_color);
+    color: var(--content3_color);
+    transition: 0.3s all ease-out;
+}
+
+
+/* ---------------------------------Section----------------------------------------- */
+
+
+/* .................Home Page Carousal.................... */
+.carousal_images img{
+    height: 580px;
+}
+
+.carousal_images1{   /* to put the gradient effect on the image */
+    position: relative;  
+}
+
+.carousal_images::before{   /* to put the gradient effect on the image */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(7, 5, 5, 0.69) 10.77%, rgba(7, 5, 5, 0.5934) 43.03%, rgba(18, 18, 18, 0) 101.63%);
+}
+
+.home_page_carousal_buttons [data-bs-target]{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--carousal1_button_bg);
+}
+
+.home_page_carousal_buttons .active {
+    background-color: var(--carousal2_button_bg);
+}
+
+.home_page_carousal_content{
+    position: relative;
+}
+
+/* ................On Image Content Banner............ */
+.image_content{
+    color: var(--content1_color);
+    position: absolute;
+   
+    top: 200px;
+}
+
+.image_content h1{
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.image_content p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* ................Customer Notification Banner............ */
+.customer_notification_banner{
+    background-color: var(--banner_bg_color);
+    color: var(--content3_color);
+    height: 123px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.customer_notification_banner h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.customer_notification_banner p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* .......................Cards Banner......................... */
+
+.card_banner{
+    width: 345px;
+    height: 112px;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    margin-top: 5rem;
+}
+
+.card_image{
+    width: 112px;
+    height: 112px;
+}
+
+.card_content{
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    padding: 26px;
+    color: var(--content4_color);
+}
+
+/* ............................Product Cards Banner............................ */
+
+.product_cards{
+    margin-top: 5rem;
+}
+
+.product_card_heading{
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--content5_color);
+}
+
+.product_card_inner{
+    border: none;
+}
+
+.product_img{
+    width: 345px;
+    height: 264px;
+    border-radius: 8px;
+}
+
+.product_title_class{
+    padding: 16px 0px 0px 0px;
+}
+
+.product_title{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--content4_color);
+    padding-bottom: 0px;
+}
+
+.product_tag_class{
+    padding: 0px;
+}
+
+.product_tag_button{
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: var(--content2_color);
+}
+
+.product_arrow{
+    color: var(--content2_color);
+}
+
+/* ......................EV Charging Image Banner....................... */
+
+.EV_image{
+    margin-top: 5rem;
+    position: relative;
+}
+
+.EV_image::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(7, 5, 5, 0.4) 10.77%, rgba(7, 5, 5, 0.344) 43.03%, rgba(18, 18, 18, 0) 101.63%);
+}
+
+.EV_image img{
+   
+    width: 100%;
+    
+    object-fit: cover;
+}
+
+/* ....................EV Charging Banner Content....................... */
+
+.EV_content{
+    position: absolute;
+    bottom:50px;
+  
+     
+}
+
+.EV_content h1{
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--content1_color);
+ 
+}
+
+.EV_button{
+    width: 117px;
+    height: 45px;
+    padding: 12px 16px;
+    background: var(--header2_bg_color);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--content1_color);
+    outline: none;
+    border: none;
+}
+
+.EV_button:hover{
+    background: var(--header1_bg_color);
+    color: var(--content2_color);
+    outline: none;
+    border: none;
+    transition: 0.3s all ease-out;
+}
+
+/* ............................FAQs Cards Banner............................ */
+
+.FAQs_cards{
+    margin-top: 5rem;
+}
+
+.FAQs_card_heading{
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--content5_color);
+}
+
+.FAQs_card_inner{
+    /* border: none; */
+    width: 345px;
+    height: 206px;
+    box-sizing: border-box;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    margin-bottom: 63px;
+}
+
+.FAQs_img{
+    width: 345px;
+    height: 100px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.FAQs_title_class{
+    padding: 16px 0px 0px 0px;
+}
+
+.FAQs_title{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--content4_color);
+    padding-top: 24px;
+    padding-bottom: 0px;
+}
+
+.FAQs_tag_class{
+    padding: 0px;
+}
+
+.FAQs_tag_button{
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: var(--content2_color);
+}
+
+.FAQs_arrow{
+    color: var(--content2_color);
+}
+
+/* ............................Footer............................ */
+
+.footer_full{
+    background: var(--banner2_bg_color);
+}
+
+.footer_1{
+    padding-top: 61px;
+}
+
+.footer_all_columns{
+    color: var(--content1_color);
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.footer_all_columns a:hover{
+    color: var(--content2_color);
+    transition: 0.3s all ease-out;
+}
+
+.footer_all_columns h5{
+    padding-bottom: 15px;
+}
+
+.footer_col ul{
+    padding: 0px;
+}
+
+.footer_col ul li{
+    list-style-type: none;
+}
+
+.footer_col ul li a{
+    color: var(--content1_color) !important;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration-line: underline;
+}
+
+.footer_col ul li a:hover{
+    color: var(--content7_color) !important;
+    transition: 0.3s all ease-out;
+}
+
+.footer_col_social{
+    color: var(--content1_color);
+}
+
+.footer_col_social i{
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.footer_li{
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+}
+
+.footer_icons{
+    width: 16px;
+    height: 16px;
+}
+
+.footer_icons i{
+    top: 3163px;
+}
+
+.footer_network h5{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0px;
+}
+
+.footer_network p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer_network a{
+    color: var(--carousal2_button_bg) !important;
+}
+
+.footer0_col{
+    color: var(--content1_color);
+}
+
+.footer2_col ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    color: var(--content1_color);
+}
+
+@media screen and (max-width:767px){
+    .footer2_col ul{
+        display: flex;
+        justify-content: flex-start;
+        padding: 0px;
+    }
+  }
+
+.footer2_col ul li a{
+    color: var(--content1_color);
+}
+
+.footer2_col ul li a:hover{
+    color: var(--content7_color);
+    transition: 0.3s all ease-out;
+}
+.footer2_col ul li{
+    list-style-type: none;
+}
+
+
+
+/* **********************************About Us Page************************************ */
+
+/* ................................About Us Banner 1............................ */
+
+.about_us_banner_1{
+    position: relative;
+}
+
+.about_us_banner_1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(7, 5, 5, 0.4) 10.77%, rgba(7, 5, 5, 0.344) 43.03%, rgba(18, 18, 18, 0) 101.63%);
+}
+
+.about_us_banner_1 img{
+    width: 100%;
+    height: 224px;
+    object-fit: cover;
+}
+
+/* ..................................About Us Banner 2 Card.......................... */
+
+.card_banner_2{
+    margin-top: 82px;
+}
+
+.card_banner2_content h3{
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.card_banner2_content p{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--content6_color);
+}
+
+.card_banner2_image{
+    width: 510px;
+    height: 339px;
+}
+
+.card_banner2_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* ..............................About Us Banner 3 Card............................... */
+
+.card_banner3_bg_color{
+    background: linear-gradient(97.59deg, #083EA1 -3.85%, rgba(3, 129, 208, 0.987995) 71.54%, rgba(0, 174, 239, 0.98) 102.34%);
+}
+
+.card_banner_3{
+    margin-top: 82px;
+    padding: 108px 0px;
+}
+
+.card_banner3_content{
+    color: var(--content1_color);
+}
+
+.card_banner3_content h3{
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.card_banner3_content p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card_banner3_image img{
+    width: 510px;
+    height: 339px;
+    border-radius: 8px;
+}
+
+
+
+/* **********************************Get in Touch Page************************************ */
+
+/* ................................Get in Touch Banner 1............................ */
+
+.get_in_touch_banner_1{
+    position: relative;
+}
+
+.get_in_touch_banner_1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(7, 5, 5, 0.4) 10.77%, rgba(7, 5, 5, 0.344) 43.03%, rgba(18, 18, 18, 0) 101.63%);
+}
+
+.get_in_touch_banner_1 img{
+    width: 100%;
+    height: 224px;
+    object-fit: cover;
+}
+
+/* ................................Get in Touch  Banner 2 Form..................................... */
+
+.banner_2{
+    margin-top: 84px;
+}
+
+.get_in_touch_information h1{
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--content5_color);
+}
+
+.get_in_touch_information p{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--content6_color);
+    margin-top: 12px;
+    padding-bottom: 33px;
+}
+
+.infomation{
+    display: flex;
+    gap: 28px;
+    margin-bottom: 63px;
+    padding: 0px;
+}
+
+.infomation_icon img{
+    width: 48px;
+    height: 48px;
+}
+
+.infomation_content h5{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--content4_color);
+}
+
+.infomation_content a{
+    color: var(--content4_color);
+}
+
+.infomation_content p{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--content4_color);
+    padding: 0px;
+    margin: 0px;
+}
+
+.form_field_name{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--content4_color);
+}
+
+.form_field_input_area{
+    width: 550px;
+    height: 64px;
+    border: 1px solid var(--border3_color);
+    border-radius: 8px;
+}
+
+.form_field_input_area:focus-visible{
+    border: 1px solid var(--border3_color);
+    /* outline: none; */
+}
+
+.form_field_input_area:focus{
+    border: 1px solid var(--border3_color);
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0);
+}
+
+.form_send_button{
+    margin-top: 34px;
+    width: 84px;
+    height: 53px;
+    background: var(--button_bg_color);
+    border-radius: 4px;
+    padding: 16px 24px;
+    outline: none;
+    border: var(--button_bg_color);
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--content1_color);
+}
+
+.form_send_button:hover{
+    background-color: var(--content1_color);
+    color: var(--content3_color);
+    font-weight: 600;
+    font-size: 14px;
+    border-color: #19875400; /*transparent*/
+    transition: 0.3s all ease-out;
+    border: 1px solid var(--button_bg_color);
+}
+
+.imgbanner{
+    width: 100%; height: 35vh;
+}
+.bannerimgmain1{
+    height: 50vh !important;
+}
+.home_sec_banner_text h1{
+    font-size: 35px !important;
+
+}
+@media(max-width:768px)
+{
+    .home_sec_banner_text h1{
+        font-size: 30px !important;
+    
+    }
+}
+@media(max-width:500px)
+{
+    .home_sec_banner_text h1{
+        font-size: 22px !important;
+    
+    }
+}
+
+
+.sticky {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 10000;
+  }
+
+
+  /* ##################>Toogle Header langiage css <############# */
+  .rotate {
+    transform: rotate(180deg);
+  }
+  .bgTabs{
+    background-color: #083EA1;
+  }
+  .navTabs2{
+    border: none !important;
+  }
+  /* ##################>Toogle Header langiage css <############# */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

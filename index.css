@@ -1,0 +1,848 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+
+/*#############> Get In Touch Banner Satrt<############  */
+
+ 
+
+.touchbanner_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.touchbanner_text h1 {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.touchbanner_text span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.touchbanner_text span a {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.touchbanner_text span a:hover {
+    color: #083EA1;
+    font-weight: 800;
+}
+
+/* Media  */
+@media(max-width:350px) {
+    .touchbanner_text h1 {
+        font-size: 35px;
+        line-height: 30px;
+    }
+}
+@media(max-width:990px) {
+    .touchbanner_text h1 {
+        font-size: 35px;
+        line-height: 30px;
+    }
+}
+
+/* Contact Start  */
+ 
+.touchcontact h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+.touchcontact p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #737373;
+}
+.touchicons{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #083EA1;
+  
+}
+.touchicons1{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: white;
+}
+.touchicons2{
+    position: absolute;
+    top: 12px;
+    font-size: 18px;
+    left: 12px;
+    color: white;
+}
+.touch_contact_detail h5{
+    font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+
+color: #1E1E1E;
+
+}
+.touchnumber{
+    color: #1E1E1E !important;
+}
+.asda{
+    width: 40px;
+    height: 40px;
+}
+@media(max-width:1200px)
+{
+    .touch_contact_detail{
+        width: 220px;
+    }
+}
+@media(max-width:600px)
+{
+    .touch_contact_detail{
+        width: 300px;
+    }
+}
+@media(max-width:400px)
+{
+    .touch_contact_detail{
+        width: 220px;
+    }
+}
+
+
+.touchinput label{
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+color: #1E1E1E;
+}
+.touchinput input,textarea{
+    border: 1px solid #D9D9D9;
+border-radius: 5px;
+padding: 10px;
+width: 100%;
+}
+.touchinput input::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;  
+    color: #A09592;
+}
+.touchinput textarea::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;  
+    color: #A09592;
+}
+.touchbutton{
+    width: 84px;
+height: 40px;
+    background-color: #F94144;;
+    border: none;
+    border-radius: 5px ;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+}
+.touchbutton:hover{
+    background-color: #083EA1;
+}
+
+.touchmap iframe{
+    width: 100% !important;
+    height: 50vh;
+}
+/*#############> Get In Touch   End <############  */
+
+
+
+
+/*#############>Help And Faq Start <############  */
+ 
+.fag_img1 img{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+       
+}
+.fag_img1 img{
+    width: 100%;
+
+
+}
+
+/* .faq_realted_link{
+    background: #F4F4F7;
+} */
+.faq_related h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+.cardreltedimg{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.card_reltaed{
+    height: 230px;
+    background-color: transparent;
+    border: 1px solid #D9D9D9;
+border-radius: 8px;
+}
+.card_related_titile{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #1E1E1E;
+}
+.realetd_faq_link{
+    color: #083EA1;
+}
+/*#############>Help And Faq End  <############  */
+
+
+/*#############>Help And Faq  Rentel Vehical Start   <############  */
+.faqBanner_rentel{
+    position: relative;
+}
+/*#############>Help And Faq  Rentel Vehical End   <############  */
+
+/*#############>Help And Faq Commercial Feets<############  */
+
+ 
+.touchcontact ol{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #737373;
+}
+.touchcontact ul{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #737373;
+}
+
+/*#############>Help And Faq Commercial Feets end<############  */
+
+
+ 
+
+
+/*#############>Help And Faq ALL D<############  */
+ 
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #F4F4F7;
+
+    outline: 0;
+    box-shadow:none !important;
+}
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #F4F4F7 !important;
+    box-shadow:none;
+}
+.accordion-item:first-of-type .accordion-button {
+    background-color:  #F4F4F7 !important;
+   border: 1px solid #F4F4F7 !important;
+}
+.accordion-body {
+    background-color: #F4F4F7 !important;
+    padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+}
+.accordion-button {
+    background-color: #F4F4F7;
+}
+.help_faqall{
+    width: 70%;
+   
+}
+.faqdetails{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+color: #737373;
+
+}
+@media(max-width:768px)
+{
+    .help_faqall{
+        width: 100%;
+       
+    }
+}
+/*#############>Help And Faq ALL D<############  */
+
+
+.bannerallimage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43))
+  }
+
+
+
+  /* ###############>Account And Passes Start<############  */
+  .account_pass img{
+    width: 100%;
+    height: 60vh ;
+    border-radius: 5px;
+    object-fit: cover;
+    
+  }
+  .account_pass h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 33px;
+line-height: 54px;
+
+color: #000000;
+
+  }
+  .account_pass p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #737373;
+  }
+
+  /* ###############>Account And Passes End <############  */
+
+  /*################> Deriver Liecence  Card Start <############### */
+  .driver_card{
+    border: none !important;
+  }
+  .driver_card img{
+    border-bottom-right-radius: 5px ;
+    border-bottom-left-radius: 5px;
+  }
+  .card_body_deriver{
+    padding-left: 0px;
+  }
+
+
+  /*#################> Safety Pafe Start <############ */
+  .safety_card_img img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  }
+  .safety_card_text h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+color: #000000;
+
+  }
+  .safety_card_text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #737373;
+    
+
+  }
+  .safety_card_text a{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+text-decoration-line: underline;
+
+color: #083EA1;
+
+  }
+  @media(max-width:580px)
+  {
+    .safety_card_text{
+        margin-top: 15px;
+    }
+  }
+
+
+  /*##############> Popup Start<#############3  */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ 
+.popup-screen {
+  z-index: 999999;
+  position: fixed;
+  width: 100%;
+height: 100vh;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.692);
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  transition: 0.5s ease;
+  transition-property: visibility;
+}
+
+.popup-screen.active {
+  visibility: visible;
+}
+
+.popup-box {
+  position: relative;
+  /* background-image: linear-gradient(to right,#00BAFF,#083EA1); */
+  backdrop-filter: blur(10px);
+  width: 550px;
+  height: auto;
+
+
+  border-radius: 20px;
+  box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+  transform: scale(0);
+  transition: 0.5s ease;
+  transition-property: transform;
+  position: relative;
+}
+
+.bottombackground {
+  position: absolute;
+
+  width: 100%;
+
+
+}
+
+.popup-screen.active .popup-box {
+  transform: scale(1);
+}
+
+.popup-box h2 {
+  font-size: 2.1em;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.popup-box p {
+  font-size: 0.6em;
+
+}
+
+.popup-box .btn {
+  color: #fff;
+  background: red;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 7px 27px;
+  border-radius: 3px;
+}
+
+.close-btn {
+  position: absolute;
+  font-size: 1em;
+  top: 0;
+  right: 0;
+  margin: 15px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s ease;
+  transition-property: opacity;
+}
+
+.close-btn:hover {
+  opacity: 1;
+}
+
+ 
+.home {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  position: relative;
+  width: 45%;
+  min-height: 450px;
+}
+
+.image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.info {
+  position: relative;
+  width: 52%;
+}
+
+.info h2 {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.info p {
+  font-size: 1em;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+@media (max-width: 990px) {
+ 
+  .home {
+    display: block;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .info {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
+.popupclose {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: -10px;
+  right: -7px;
+}
+
+
+/* ################## card  Start######################*/
+
+.card1 {
+  /* background-image: linear-gradient(to right,#00BAFF,#083EA1); */
+  background-image: url(./img/card_banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px !important;
+  width: 200px;
+  height: 200px;
+  border: 0px;
+  position: relative;
+}
+
+.container1 {
+  margin-top: -30px;
+}
+
+.headerimg1 {
+  width: 100%;
+}
+
+.headerimg2 {
+  width: 100%;
+}
+
+.innerblur {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+
+
+  font-weight: 400;
+  margin-right: -13px !important;
+  margin-top: -16px;
+}
+
+.innerblurhead {
+  font-weight: 500;
+  font-size: 34px;
+
+}
+
+.innerblurcontent {
+  font-size: 32px;
+}
+
+.endbackground {
+  height: 108px;
+  background-image: url(./img/cardback.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+.gifimg {
+  width: 3rem;
+  height: 3rem;
+
+  margin-left: -12px
+}
+
+.dollor {
+  color: #00AEEF
+}
+
+.enddiv {
+  position: relative;
+
+}
+
+.hdfjh img {
+  position: absolute;
+  bottom: 10px;
+  float: right;
+
+}
+
+.endtext {
+
+  background-color: #00AEEF;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-bottom: 1rem !important;
+  margin-top: 0px !important;
+}
+
+.etollpass {
+  width: 40%;
+}
+
+.note {
+  position: relative;
+  top: 10px;
+  font-size: 0.7rem;
+}
+
+/* ##########  Card 2 Start ######## */
+.card2blur {
+
+  background-image:
+    linear-gradient(to right, rgba(205, 207, 220, 0), rgb(255, 255, 255)),
+    url('./img/cardtravelimh.png');
+  /* background-image: url('./img/Rectangle\ 9.png'); */
+
+  width: 100%;
+  background-size: 100%;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0px;
+
+
+
+
+}
+
+.dollerpopfont {
+  font-size: 0.3em;
+
+}
+
+.AUDNZd {
+  font-size: 0.2em;
+}
+
+@media(max-width:2500px) {
+  .dollerpopfont {
+    font-size: 0.3em;
+
+  }
+
+  .AUDNZd {
+    font-size: 0.3em;
+  }
+
+
+  .innerblurcontent {
+    font-size: 20px;
+
+  }
+}
+
+@media(max-width:270px) {
+  .card1 {
+    height: 150px;
+  }
+
+  .dollerpopfont {
+    font-size: 0.2em;
+
+  }
+
+  .AUDNZd {
+    font-size: 0.3em;
+
+  }
+
+
+  .innerblurcontent {
+    font-size: 18px;
+
+  }
+}
+
+.cardresponsivepopup {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media(max-width:600px) {
+  .cardresponsivepopup {
+    display: block;
+
+  }
+
+  .secondcardpoup {
+    position: absolute;
+    top: 300px;
+
+  }
+
+  .popup-box {
+    height: 100vh !important;
+  }
+}
+
+.closebtnpop {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: white;
+  position: relative;
+  float: right;
+}
+
+.popupheadingset {
+  width: 300px;
+  position: absolute;
+  padding: 30px;
+  color: white;
+}
+
+.popuplogomain {
+  position: relative;
+  float: right;
+  top: 40px;
+  left: 30px;
+}
+
+.popsehiteimg {
+  width: 200px;
+}
+
+.popuplogoset {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.pouplogoimg {
+  width: 140px;
+}
+
+
+@media(max-width:440px) {
+  .popupheadingset {
+    width: 200px;
+  }
+
+  .popupheadingset h1 {
+    font-size: 15px;
+
+  }
+
+  .popsehiteimg {
+    width: 150px;
+  }
+
+  .pouplogoimg {
+    width: 100px;
+  }
+ .secondcardpoup{
+  display: none;
+ }
+
+}
+
+.maintwopopupcard {
+  width: 200px;
+  
+  position:
+    absolute;
+  bottom: 80px;
+  right: 50px;
+  transform: rotate(-40deg);
+}
+
+.maintwopopupcard1 {
+  width: 200px;
+  ;
+ 
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+  transform:
+    rotate(-40deg);
+}
+.ginnnspce{
+  margin-top: 15px;
+}
+/* ##########  Card 2 End ######## */
+ 
+  /*##############> Popup Start<#############3  */
+
+  

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="eftposstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+
+      <link rel="stylesheet" href="./index.css">
+      <link rel="stylesheet" href="./css/style.css">
+    <title>Eftpos</title>
+
+ 
+</head>
+<body>
+  <!-- #################>Header Start<###############3  -->
+<div class="container-fluid my-3">
+  <div class="row">
+    <div class="col-md-4 logo d-flex justify-content-center">
+      <img src="./img/LOGO.png" alt="" class="logocl" width="200px" />
+    </div>
+
+    <div class="col-md-4 mt-4">
+      <div class="row">
+        <div class="col d-flex">
+          <div class="input-group me-2">
+            <input
+              type="text"
+              class="form-control inputtxt"
+              placeholder="Search"
+              />
+            <div class="input-group-append">
+              <button class="btn bton" type="button">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+          <!-- <button type="button" class="btn btn-outline-primary">
+            Login
+          </button> -->
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex mt-4 justify-content-center" >
+      <div class="d-flex mx-2 justify-content-between" id="suprtBtn">
+        <span class="mx-1"><svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M14.625 15.5C12.8333 15.5 11.0869 15.1006 9.38583
+              14.3017C7.68417 13.5033 6.17722 12.4478 4.865 11.135C3.55222
+              9.82278 2.49667 8.31583 1.69833 6.61417C0.899445 4.91306 0.5
+              3.16667 0.5 1.375C0.5 1.125 0.583333 0.916667 0.75
+              0.75C0.916667 0.583333 1.125 0.5 1.375 0.5H4.75C4.94444 0.5
+              5.11806 0.5625 5.27083 0.6875C5.42361 0.8125 5.51389 0.972222
+              5.54167 1.16667L6.08333 4.08333C6.11111 4.27778 6.10778
+              4.45472 6.07333 4.61417C6.03833 4.77417 5.95833 4.91667
+              5.83333 5.04167L3.83333 7.08333C4.41667 8.08333 5.14583
+              9.02083 6.02083 9.89583C6.89583 10.7708 7.86111 11.5278
+              8.91667 12.1667L10.875 10.2083C11 10.0833 11.1633 9.98944
+              11.365 9.92667C11.5661 9.86444 11.7639 9.84722 11.9583
+              9.875L14.8333 10.4583C15.0278 10.5 15.1875 10.5936 15.3125
+              10.7392C15.4375 10.8853 15.5 11.0556 15.5 11.25V14.625C15.5
+              14.875 15.4167 15.0833 15.25 15.25C15.0833 15.4167 14.875 15.5
+              14.625 15.5Z"
+              fill="#083EA1"
+              />
+            </svg>
+          </span>
+          <p class="mx-1">Support</p>
+          <span class="mx-1">
+            <svg
+              width="14"
+              height="8"
+              viewBox="0 0 14 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              id="icon2">
+              <path
+                d="M0.933496 0.766601C1.10016 0.599934 1.2975 0.516601
+                1.5255 0.516601C1.75305 0.516601 1.95016 0.599934 2.11683
+                0.766601L7.00016 5.64993L11.9002 0.749935C12.0557 0.594379
+                12.2502 0.516602 12.4835 0.516602C12.7168 0.516602 12.9168
+                0.599935 13.0835 0.766602C13.2502 0.933268 13.3335 1.1306
+                13.3335 1.3586C13.3335 1.58616 13.2502 1.78327 13.0835
+                1.94993L7.46683 7.54994C7.40016 7.6166 7.32794 7.66394
+                7.25016 7.69194C7.17238 7.71949 7.08905 7.73327 7.00016
+                7.73327C6.91127 7.73327 6.82794 7.71949 6.75016
+                7.69194C6.67238 7.66394 6.60016 7.6166 6.5335
+                7.54994L0.916829 1.93327C0.761273 1.77771 0.683495 1.58616
+                0.683495 1.3586C0.683495 1.1306 0.766829 0.933268 0.933496
+                0.766601Z"
+                fill="black"
+                />
+              </svg>
+            </span>
+          </div>
+          <div class="d-flex mx-2 justify-content-between" id="langBtn">
+            <span class="mx-1">
+              <i class="fas fa-globe-americas  fs-5 mt-1" style="color: #083994;"></i>
+              </span>
+              <p class="mx-1">Au</p>
+              <span class="mx-1">
+                <svg
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="icon1">
+                  <path
+                    d="M0.933496 0.766601C1.10016 0.599934 1.2975 0.516601
+                    1.5255 0.516601C1.75305 0.516601 1.95016 0.599934
+                    2.11683 0.766601L7.00016 5.64993L11.9002
+                    0.749935C12.0557 0.594379 12.2502 0.516602 12.4835
+                    0.516602C12.7168 0.516602 12.9168 0.599935 13.0835
+                    0.766602C13.2502 0.933268 13.3335 1.1306 13.3335
+                    1.3586C13.3335 1.58616 13.2502 1.78327 13.0835
+                    1.94993L7.46683 7.54994C7.40016 7.6166 7.32794 7.66394
+                    7.25016 7.69194C7.17238 7.71949 7.08905 7.73327 7.00016
+                    7.73327C6.91127 7.73327 6.82794 7.71949 6.75016
+                    7.69194C6.67238 7.66394 6.60016 7.6166 6.5335
+                    7.54994L0.916829 1.93327C0.761273 1.77771 0.683495
+                    1.58616 0.683495 1.3586C0.683495 1.1306 0.766829
+                    0.933268 0.933496 0.766601Z"
+                    fill="black"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-12 mainheadertabsfix modelcolorheader"
+              id="language">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item " role="presentation">
+                  <button class="nav-link active" id="home-tab"
+                    data-bs-toggle="tab" data-bs-target="#home"
+                    type="button" role="tab" aria-controls="home"
+                    aria-selected="true">
+                    <div class="d-flex">
+                      <span class="mx-3">
+                        <i class="fas fa-globe-americas  fs-4 mt-2"></i>
+                        </span>
+                        <p class="fs-4 fw-bold">Europe</p>
+                      </div>
+                    </button>
+                  </li>
+                  <li class="nav-item  " role="presentation">
+                    <button class="nav-link" id="profile-tab"
+                      data-bs-toggle="tab" data-bs-target="#profile"
+                      type="button" role="tab" aria-controls="profile"
+                      aria-selected="false">
+                      <div class="d-flex setcountryflag" >
+                        <span class="mx-3">
+                          <i class="fas fa-globe-americas  fs-4 mt-2"></i>
+                          </span>
+                          <p class="fs-4 fw-bold">Asia</p>
+                        </div>
+                      </button>
+                    </li>
+
+                  </ul>
+
+                  <div class="tab-content px-5" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home"
+                      role="tabpanel" aria-labelledby="home-tab">
+
+
+                      <div class="col-md-4">
+
+                        <div class="my-3">
+                          <div class="d-flex justify-content-between my-2">
+                            <p class="fw-bold">France</p>
+                            <p class="fw-bold text-info">French</p>
+                          </div>
+                          <div class="d-flex justify-content-between my-2">
+                            <p class="fw-bold">Spain</p>
+                            <p class="fw-bold text-info">Spanish</p>
+                          </div>
+                          <div class="d-flex justify-content-between my-2">
+                            <p class="fw-bold">United Kingdom</p>
+                            <p class="fw-bold text-info">Enlish</p>
+                          </div>
+                          <div class="d-flex justify-content-between my-2">
+                            <p class="fw-bold">Ireland</p>
+                            <p class="fw-bold text-info">Enlish</p>
+                          </div>
+                          <div class="d-flex justify-content-between my-2">
+                            <p class="fw-bold">Switzerland</p>
+                            <p class="fw-bold text-info">German</p>
+                          </div>
+                          <div class="d-flex justify-content-between my-2">
+                            <p class="fw-bold">Germany</p>
+                            <p class="fw-bold text-info">German</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel"
+                      aria-labelledby="profile-tab">
+                      <div class="col-md-4">
+                        <div class="my-3">
+                          <div class="d-flex justify-content-between my-2">
+                            <p class="fw-bold">Australia</p>
+                            <p class="fw-bold text-info">Enlish</p>
+                          </div>
+                          <div class="d-flex justify-content-between my-2">
+                            <p class="fw-bold">New Zealand</p>
+                            <p class="fw-bold text-info">Enlish</p>
+                          </div>
+                          <div class="d-flex justify-content-between my-2">
+                            <p class="fw-bold">Nepal</p>
+                            <p class="fw-bold text-info">German</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mainheadertabsfix" id="Support">
+                  <div class="row modelcolorheader">
+                    <div class="col-md-4 bgTabs ">
+                      <ul class="nav nav-tabs d-flex flex-column
+                        justify-content-end navTabs2" id="myTab"
+                        role="tablist">
+                        <li class="nav-item d-flex justify-content-md-end
+                          tabtbntogglenav" role="presentation">
+
+
+                          <button class="nav-link active px-5 btntderiver"
+                            id="tab1-tab" data-bs-toggle="tab"
+                            data-bs-target="#tab1" type="button" role="tab"
+                            aria-controls="tab1" aria-selected="true">Drivers
+                            <span class="mx-3"> </span>
+                            <i class="fas fa-chevron-right font_awsom_icon"></i>
+                          </button>
+                        </li>
+                        <li class="nav-item d-flex justify-content-md-end
+                          tabtbntogglenav" role="presentation">
+                          <button class="nav-link px-5 my-2 btntderiver"
+                            id="tab2-tab" data-bs-toggle="tab"
+                            data-bs-target="#tab2" type="button" role="tab"
+                            aria-controls="tab2" aria-selected="false">Business
+                            <spa class="mx-3">
+                              <i class="fas fa-chevron-right
+                                font_awsom_icon"></i>
+
+                            </spa>
+                          </button>
+                        </li>
+
+                      </ul>
+
+
+                    </div>
+                    <div class="col-md-8">
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="tab1"
+                          role="tabpanel" aria-labelledby="tab1-tab">
+                          <div class="row p-2 ">
+                            <div class="col-md-6 border-end my-3">
+                              <h5>Tell US Why Are You Here?</h5>
+                              <p class="my-2 text-muted"> Understand my
+                                Experian credit report and score
+                                Help setup my Toll Pass
+                                How do I create my own verified account
+                                --Can I view and access a copy of my Rental
+                                Agreement
+                                How can I pay a Toll Notice from my phone.
+                                Dispute a tall Trip on My rental Agreement
+                                Why did i Recieve Sms From eFleetpass</p>
+                            </div>
+
+                            <div class="col-md-5 ms-3 my-3 ">
+                              <h5>
+                                Frequently Asked Questions
+                              </h5>
+                              <p class="my-2 text-muted">
+                                How can I access my Pre-Paid Toll Account
+                              </p>
+                              <p class="my-2 text-muted">
+                                Why do I pay a Daily Fee on eFleetPass
+                              </p>
+                              <p class="my-2 text-muted">
+                                Where can I download the Tolling on Demand
+                                App
+                              </p>
+                              <p class="my-2 text-muted">
+                                MFA Motorway Products
+                              </p>
+                              <p class="my-2 text-muted">
+                                Military Personnel and Families
+                              </p>
+                              <p class="my-2 text-muted">Fraud SMS Alerts
+                              </p>
+
+                              <a href="#" class="fw-bold"><p>Visit FAQ
+                                  Center <i class="fas fa-arrow-right"></i>
+                                </p></a>
+
+                              <h5 class="mt-4">Your eFleetPass Support</h5>
+                              <p class="text-muted">Online service 246 x 30
+                                can do it yourself. Need a live person? Call
+                                us! Mail in forms to complete some services.
+                              </p>
+                              <a class="mt-2 fw-bold" href="#"><p>Get Help
+                                  <i class="fas fa-arrow-right"></i>
+                                </svg>
+                              </p></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="tab2" role="tabpanel"
+                        aria-labelledby="tab2-tab">
+                        <div class="row">
+                          <div class="col-md-6 my-3 border-end">
+                            <h5>Existing Customers</h5>
+                            <p class="my-2 text-muted">Manage your account,
+                              pay an invoice, review frequently asked
+                              questions, or contact customer service. </p>
+                            <a class="mt-3 fw-bold" href="#"><p>Get To
+                                Support <i class="fas fa-arrow-right"></i>
+                              </p></a>
+                            <a class="mt-3 fw-bold" href="#"><p>Submit a
+                                Service Request <i class="fas
+                                  fa-arrow-right"></i>
+                              </p></a>
+                          </div>
+
+                          <div class="col-md-6 my-3">
+                            <h5>
+                              Your eFleetPass Support
+                            </h5>
+                            <p class="my-2 text-muted">
+                              Your eFleetPass Support Our Sales Specialists
+                              will provide strategic guidance and match you
+                              to the best products and solutions
+                            </p>
+
+
+                            <a class="mt-3 fw-bold" href="#"><p>Connect with
+                                a Sales Sepacialist <i class="fas
+                                  fa-arrow-right"></i>
+                              </p></a>
+
+
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+       <div  class="z-3" id="navbar">
+        <div class="container-fluid menubar  z-3" id="menuBar">
+          <div class="container">
+            <div class="row">
+              <div class="col-4 col-md-7">
+                <nav class="navbar navbar-expand-lg">
+                  <button
+                    class="navbar-toggler nvbrbtn"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse"
+                    id="navbarNavDropdown">
+                    <!-- <div class="line mt-2 "></div> -->
+                    <ul class="navbar-nav mt-2">
+                      <li class="nav-item nvitm">
+                        <a class="nav-link text-white" aria-current="page"
+                          href="index.html"><strong>HOME</strong></a>
+                      </li>
+                      <li class="nav-item nvitm">
+                        <a class="nav-link text-white" href="About_Us.html"><strong>ABOUT
+                            US</strong></a>
+                      </li>
+                      <li class="nav-item nvitm">
+                        <a class="nav-link text-white" href="help_And_faq.html"><strong>HELP
+                            AND FAQS</strong></a>
+                      </li>
+                      <li class="nav-item nvitm ">
+                        <!-- dropdown -->
+                        <a class="nav-link text-white" href="Account_Passes.html"><strong>ACCOUNT AND PASSES </strong></a>
+                        <!-- <a
+                          class="nav-link dropdown-toggle text-white"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          <strong>ACCOUNT AND PASSES</strong>
+                        </a>
+                         <ul class="dropdown-menu dropmenu col-12 mt-2">
+                          <li>
+                            <a class="dropdown-item ditem text-dark"
+                              href="#"><strong>Action</strong></a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item ditem text-dark"
+                              href="#"><strong>Another action</strong></a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item ditem text-dark"
+                              href="#"><strong>Something else here</strong></a>
+                          </li>
+                        </ul>   -->
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="col-8 col-md-5 p-0">
+                <div class="text-end">
+                  <button type="button" class="btn btn-danger mt-2 wid">
+                    Get In Touch
+                  </button>
+                  <button type="button" class="btn   mt-2  logbtnhead">
+                    Login
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+     
+       
+
+  <!-- ############>Header End ############### -->
+
+<!-- Banner Start  -->
+    <!-- <section class="home">
+    <div class="text">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h1>
+                       Eftpos
+                    </h1>
+                    <p style="color:white">
+                        Home  | Eftpos
+                    </p> 
+                  
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<div class="faqBanner_rentel z-1">
+
+  <div class="bannerallimage">
+      <img src="./img/eftolpassbanner.png"  alt=""class="imgbanner">
+  </div>
+ <div class="container touchbanner_text">
+  <h1>  Eftpos</h1>
+  <div>
+      <span class=""><a href="index.html" class="px-2">  Home </a> |  <a href="eftpos.html" class="mx-2"> Eftpos</a></span>
+  </div>
+ </div>
+</div>
+
+<section class="home2" style="margin-top:4rem">
+    <div class="container">
+        <div class="row row-img gy-5">
+            <div class="col-lg-6 col-md-6 col-12">
+                <h1>What is Eftpos ?</h1>
+                <p>EFTPOS, or Electronic Funds Transfer at Point of Sale, is a system used for electronic payments at retail locations. It allows customers to pay for goods and services using debit cards, credit cards, or prepaid cards, rather than using cash or checks. The transaction is processed electronically through a network of financial institutions, eliminating the need for a physical exchange of money. </p>
+                <p>EFTPOS terminals are commonly used in retail stores, restaurants, and other businesses that accept card payments. To use EFTPOS, a customer simply inserts or swipes their card into the terminal and enters their PIN or provides a signature to confirm the transaction. The payment is then transferred electronically from the customer's bank account or credit card to the merchant's account. EFTPOS is widely used in many countries around the world and is a convenient and secure way to make payments.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 col-img">
+                <img src="img/Rectangle 6609.png">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="FAQ container">
+    <h1>Frequently Asked Questions</h1>
+    <div class="accordion allacc" id="accordionExample">
+        <div class="accordion-item at">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button cutomebtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+             How do I use Eftpos?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body ab">
+              To use EFTPOS, you will need a debit or credit card that is linked to your bank account or credit card account. When you are ready to make a payment at a business that accepts EFTPOS, simply insert or swipe your card into the terminal and follow the prompts on the screen. You may be asked to enter your PIN or provide a signature to confirm the transaction.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item at">
+            <h2 class="accordion-header" id="headingt">
+              <button class="accordion-button cutomebtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapset" aria-expanded="true" aria-controls="collapset">
+                Is EFTPOS safe to use?
+              </button>
+            </h2>
+            <div id="collapset" class="accordion-collapse collapse show" aria-labelledby="headingt" data-bs-parent="#accordionExample">
+              <div class="accordion-body ab">
+                EFTPOS is a secure way to make payments because it uses encrypted information to process transactions. Additionally, you are protected by the terms and conditions of your bank or credit card issuer, which may include fraud protection and other safeguards.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item at">
+            <h2 class="accordion-header" id="headingth">
+              <button class="accordion-button cutomebtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseth" aria-expanded="true" aria-controls="collapseth">
+                Can I use EFTPOS to withdraw cash?
+              </button>
+            </h2>
+            <div id="collapseth" class="accordion-collapse collapse show" aria-labelledby="headingth" data-bs-parent="#accordionExample">
+              <div class="accordion-body ab">
+                Yes, you can use EFTPOS to withdraw cash at certain locations, such as ATMs or banks. You will need to enter your PIN to complete the transaction.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item at">
+            <h2 class="accordion-header" id="headingf">
+              <button class="accordion-button cutomebtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapsef" aria-expanded="true" aria-controls="collapsef">
+                Are there any fees associated with using EFTPOS?
+              </button>
+            </h2>
+            <div id="collapsef" class="accordion-collapse collapse show" aria-labelledby="headingf" data-bs-parent="#accordionExample">
+              <div class="accordion-body ab">
+                There may be fees associated with using EFTPOS, depending on your bank or credit card issuer and the terms of your account. It is a good idea to check with your financial institution to understand any fees that may apply.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item at">
+            <h2 class="accordion-header" id="headingfi">
+              <button class="accordion-button cutomebtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefi" aria-expanded="true" aria-controls="collapsefi">
+                Can I use EFTPOS to make online purchases?
+              </button>
+            </h2>
+            <div id="collapsefi" class="accordion-collapse collapse show" aria-labelledby="headingfi" data-bs-parent="#accordionExample">
+              <div class="accordion-body ab">
+                Yes, you can use EFTPOS to make online purchases by providing your card details at the checkout page of an online retailer. You may be required to enter your card details and PIN or provide a signature to confirm the transaction.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item at">
+            <h2 class="accordion-header" id="headings">
+              <button class="accordion-button cutomebtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapses" aria-expanded="true" aria-controls="collapses">
+                Can I use EFTPOS to make online purchases?
+              </button>
+            </h2>
+            <div id="collapses" class="accordion-collapse collapse show" aria-labelledby="headings" data-bs-parent="#accordionExample">
+              <div class="accordion-body ab">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut fuga quisquam natus repudiandae facilis magnam, qui nihil ipsum ipsa consequuntur hic voluptatibus, perferendis reiciendis ad? Eligendi odio quia a est libero? Dignissimos, iusto. Quaerat consectetur maxime voluptate, culpa dolor neque ad unde laborum cumque consequatur ea voluptatibus incidunt provident.
+              </div>
+            </div>
+          </div>
+      </div>
+</section>
+
+
+
+<script src="./javascript/sticky.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>
