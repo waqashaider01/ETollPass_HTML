@@ -846,3 +846,312 @@ height: 100vh;
   /*##############> Popup Start<#############3  */
 
   
+
+
+
+  /* ##################>Login Stsyem Start <########*/
+
+  .login-main-contant{
+    text-align: center;
+
+
+  }
+  .login-main-contant h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+ 
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #101012;
+  }
+
+  .login-input-feild input{
+border: 1px solid #C4C4C4;
+border-radius: 4px;
+border-top-left-radius: 4px !important;
+border-bottom-left-radius: 4px !important;
+padding: 10px;
+  }
+
+  .login-input-feild select{
+    padding: 10px;
+  }
+
+   .login-input-feild select:focus{
+    box-shadow: none;
+    outline: none;
+   border-color: none;
+    padding: 10px;
+  }
+  .multiformpage-line{
+    width: 100%;
+    height: 1px;
+    background-color: #838383;
+  }
+  .login-input-feild label{
+    color: #101012;
+
+  }
+
+  .login-input-feild input::placeholder{
+    color: #737373;
+
+  }
+  .pass-log-forget{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+ 
+text-transform: capitalize;
+
+color: #00AEEF;
+  }
+  .login-btn-page{
+    background: #083EA1;
+border-radius: 4px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+color: #FFFFFF;
+
+  }
+
+    .login-btn-page:hover{
+    background: #dc3545;
+border-radius: 4px;
+font-family: 'Poppins';
+font-style: normal;
+ 
+color: #FFFFFF;
+
+  }
+
+  .gotosignuppage-log{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+ 
+color: #737373;
+  }
+
+
+
+
+  /*#########################> Signup Start <##############*/
+
+/* Progressbar */
+.progressbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  counter-reset: step;
+  margin: 2rem 0 4rem;
+}
+
+.progressbar::before,
+.progress {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100%;
+  background-color: #dcdcdc;
+  z-index: -1;
+}
+
+.progress {
+  background-color:rgb(11, 78, 179);
+  width: 0%;
+  transition: 0.3s;
+}
+
+.progress-step {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  background-color: #dcdcdc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-step::before {
+  counter-increment: step;
+  content: counter(step);
+}
+
+.progress-step::after {
+  content: attr(data-title);
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.progress-step-active {
+  background-color:rgb(11, 78, 179);
+  color: #f3f3f3;
+}
+
+ 
+.form-step {
+  display: none;
+  transform-origin: top;
+  animation: animate 0.5s;
+}
+
+.form-step-active {
+  display: block;
+}
+.next-multistep-form{
+background: #083EA1;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.next-multistep-form:hover{
+background: #dc3545;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+ 
+.toggle-password{
+  position: absolute;
+right: 10px;
+top: 45px;
+cursor: pointer;
+}
+
+ .toggle-passwordsecond{
+   position: absolute;
+right: 10px;
+top: 45px;
+cursor: pointer;
+ }
+ 
+
+ /*#################> KYC sTEP START <###############*/
+         .drop-zone {
+  width: 100%;
+  height: 230px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+ background: #EEF6FF;
+border: 1.07616px dashed #B2CFF1;
+  border-radius: 10px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+}
+.drop-zone__prompt{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17.2185px;
+line-height: 26px;
+/* identical to box height, or 150% */
+
+ 
+color: #0F0F0F;
+
+}
+.drag-drop-content{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12.9139px;
+line-height: 19px;
+/* identical to box height, or 150% */
+
+ 
+text-align: center;
+
+color: #676767;
+ 
+}
+ 
+ /*#################> KYC STEP END <###############*/
+
+
+ /*##################>Add Payment Start<############*/
+
+ .dicover-btn1{
+  border: 7.45932px solid #F3F3F3;
+border-radius: 4px;
+width: 100px;
+ }
+  .dicover-btn1:hover{
+  border: 7.45932px solid #F3F3F3;
+border-radius: 4px;
+ }
+
+ 
+ .dicover-btn{
+  background: #FFFFFF;
+border: 7.45932px solid #F3F3F3;
+border-radius: 4px;
+width: 100px;
+ }
+
+  .dicover-btn:hover{
+  background: #FFFFFF;
+border: 7.45932px solid #F3F3F3;
+border-radius: 4px;
+ }
+ .payment-tabs-button{
+  background: #083EA1;
+  
+  border-radius: 5px;
+ }
+
+ .alertmesage-paymentadd{
+  
+background: #CDFFED;
+border-radius: 11.3677px;
+color: #3CE068;
+
+ }
+ .addcard-seccces-card{
+border: 1px solid #DBDBDB;
+border-radius: 4px;
+ }
+ .addtocard-success{
+  display: none;
+ }
