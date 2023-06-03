@@ -269,3 +269,68 @@
   font-weight: 500;
   font-size: 15px;
 }
+
+/* ---etollPass Cards 2--- */
+.anchor___button {
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.anchor___button:hover {
+  border: 1.5px solid #083ea1 !important;
+}
+
+.row___anchor___button {
+  gap: 10px;
+}
+
+.anchor___button a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: #101012;
+}
+
+.anchor__button__img {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.anchor__button__img img {
+  width: 50%;
+}
+
+.anchor__button__img__1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.anchor__button__img__1 img {
+  width: 100%;
+  height: 120%;
+}
+
+.px-md-6 {
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+}
+
+.form____button {
+  background: #083ea1;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.form____button:hover {
+  background: #000000;
+  border-radius: 4px;
+  color: #083ea1;
+  font-weight: 600;
+  font-size: 15px;
+}
