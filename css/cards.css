@@ -91,7 +91,8 @@
   width: 50px;
   padding: 0 5px;
   text-align: center;
-  background-color: transparent;
+  background-color: transparent !important;
+  background-image: none;
   border: 1px solid #cfcfcf;
 }
 
@@ -144,6 +145,24 @@
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
+}
+
+.card__2__right__content button:hover {
+  background: #000000;
+  border-radius: 4px;
+  color: #00aeef;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.add__to__cart__btn-check:checked + .add__to__cart__btn,
+.add__to__cart__btn.active,
+.add__to__cart__btn.show,
+.add__to__cart__btn:first-child:active,
+:not(.add__to__cart__btn-check) + .add__to__cart__btn:active {
+  color: #00aeef !important;
+  background-color: #000000 !important;
+  border-color: none !important;
 }
 
 .card__2__right__content h6 {
