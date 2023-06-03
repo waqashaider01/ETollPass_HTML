@@ -278,6 +278,11 @@
   transition: all 0.2s ease-in-out;
 }
 
+.abc__abc {
+  padding: 0 !important;
+  padding-left: 5px !important;
+}
+
 .anchor___button:hover {
   border: 1.5px solid #083ea1 !important;
 }
@@ -364,4 +369,8 @@
 
 .crypto___button img {
   width: 100%;
+}
+
+.btn__btn {
+  padding: 10px 50px !important;
 }
