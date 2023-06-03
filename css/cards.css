@@ -1,0 +1,160 @@
+/* ---etollPass Cards page--- */
+.main__card {
+  border: 1px solid #f0f0f0 !important;
+  box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.07);
+  border-radius: 4px 0px 0px 4px !important;
+}
+
+.card__img__bg {
+  background-color: #e2e2e2 !important;
+  padding: 20px 0;
+}
+
+.card__inner__img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__inner__img img {
+  width: 60%;
+  object-fit: cover;
+}
+
+.card__content h5 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card__content p {
+  color: #083ea1;
+}
+
+.card__content button {
+  background: #00aeef;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card__content button:hover {
+  color: #00aeef;
+  background-color: #000000;
+}
+
+/* ---etollPass Cards 2 page--- */
+.card__2__h5 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.card__2__img__bg {
+  background: #e2e2e2;
+  border-radius: 4px;
+}
+
+.card__2__img__inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.card__2__img__inner img {
+  width: 50%;
+}
+
+.card__2__right__content h5 {
+  font-weight: 500;
+  font-size: 24px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.card__2__right__content p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #083ea1;
+}
+/* -- quantity box -- */
+
+.quantity {
+  display: inline-block;
+}
+
+.quantity .input-text.qty {
+  height: 50px;
+  width: 50px;
+  padding: 0 5px;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #cfcfcf;
+}
+
+.quantity.buttons_added {
+  display: flex;
+  gap: 10px;
+  text-align: left;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.quantity.buttons_added input {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  box-shadow: none;
+}
+
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+  padding: 7px 10px 8px;
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  border: 1px solid #cfcfcf;
+  cursor: pointer;
+}
+
+.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+  background: #eeeeee;
+}
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+}
+
+.quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+  outline: none;
+}
+
+.card__2__right__content button {
+  background: #00aeef;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.card__2__right__content h6 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card__2__right__content .para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #737373;
+}
