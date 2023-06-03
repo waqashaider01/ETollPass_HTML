@@ -179,3 +179,93 @@
   line-height: 24px;
   color: #737373;
 }
+
+/* ---etollPass Cards 3--- */
+
+.card__3__row {
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.card__3__left__div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card__3__img__left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #ebebeb;
+  border-radius: 8px;
+  padding: 10px 0;
+}
+
+.card__3__img__left img {
+  width: 50%;
+}
+
+.row__left__content h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #1e1e1e;
+}
+
+.quantity__display {
+  display: flex;
+}
+
+.quantity__2.buttons_added .minus,
+.quantity__2.buttons_added .plus {
+  padding: 7px 10px 8px;
+  height: 35px;
+  width: 35px;
+  background-color: #ffffff;
+  border: 1px solid #cfcfcf;
+  cursor: pointer;
+}
+
+.quantity__2 .input-text.qty {
+  height: 35px;
+  width: 35px;
+  padding: 0 5px;
+  text-align: center;
+  background-color: transparent !important;
+  background-image: none;
+  border: 1px solid #cfcfcf;
+}
+
+.card__3__right__col {
+  background: #1e1e1e;
+  box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+}
+
+.col__right__content h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.place__order__button {
+  width: 100%;
+  background: #083ea1;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.place__order__button:hover {
+  background: #191919;
+  border-radius: 4px;
+  color: #083ea1;
+  font-weight: 500;
+  font-size: 15px;
+}
