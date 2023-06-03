@@ -47,6 +47,8 @@
 
 /* ---etollPass Cards 2 page--- */
 .card__2__h5 {
+  display: flex;
+  justify-content: space-between;
   color: #000000;
   font-weight: 600;
   font-size: 24px;
